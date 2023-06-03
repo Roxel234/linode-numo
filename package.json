@@ -1,0 +1,18 @@
+{
+  "name": "numo",
+  "version": "0.0.1 Beta",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.2"
+  }
+}
