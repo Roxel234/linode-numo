@@ -7,7 +7,7 @@ app.set("port", process.env.PORT || 2020);
 
 app.use(express.static(path.join(__dirname,"public")));
 
-const server = app.listen(2020,"0.0.0.0",function(){
+const server = app.listen(2020,function(){
 	console.log("Server started");
 	console.log("\nEnter in this links:");
 	console.log("127.0.0.1:"+app.get("port"));
