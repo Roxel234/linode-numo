@@ -6,7 +6,7 @@ socket.on("cards",(data)=>{
 });
 
 var myCards = [];
-
+//axd
 const imageCache = {};
 
 function loadImage(url){
